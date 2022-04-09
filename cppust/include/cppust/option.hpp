@@ -11,6 +11,7 @@
 #pragma once
 
 #include "utils.hpp"
+#include "fmt.hpp"
 
 #include <optional>
 #include <functional>

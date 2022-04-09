@@ -1,0 +1,3 @@
+*.gen.cpp
+*.inc.hpp
+*.fmt.hpp

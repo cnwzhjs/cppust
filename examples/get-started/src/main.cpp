@@ -21,7 +21,7 @@ void use_option() {
     auto some_int = Option<int>::Some(32);
     auto none_no_display = Option<NoDisplay>::None();
 
-    std::cout<<"none: "<<none<<"\n";
+    std::cout<<"none: "<<as_debug(none)<<"\n";
     std::cout<<"none == Option<int>::None(): "<<(none == Option<int>::None())<<"\n";
     std::cout<<"none != Option<int>::None(): "<<(none != Option<int>::None())<<"\n";
     std::cout<<"some_int: "<<some_int<<"\n";

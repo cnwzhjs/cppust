@@ -10,8 +10,12 @@
 
 #pragma once
 
-#include <cstdint>
 #include <stddef.h>
+#include <unistd.h>
+
+#include <cstdint>
+#include <vector>
+#include <tuple>
 
 namespace cppust {
 

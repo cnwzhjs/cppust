@@ -14,6 +14,7 @@
 #   error C++ 11 and above required
 #endif
 
+#include "fmt.hpp"
 #include "utils.hpp"
 #include "result.hpp"
 #include "option.hpp"
